@@ -11,7 +11,7 @@ import email
 import FileManager as fmanager
 #import html2text
 
-from email.header import decode_header
+#from email.header import decode_header
 
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT = 993
@@ -32,11 +32,7 @@ def readMail():
         messages = int(messages[0])
         
         #create new File for specific days emails
-        txt = '.txt'
-        emailNug = "EmailNugget"
-        Nuggets = (emailNug + fmanager.timeNow() + txt)
-        
-        NugFile = open(os.path.join('C:\\Users\\bamba\\Documents\\Python_Scripts\\AlarmClock\\NuggetsMod\\EmailNuggets\\' + Nuggets), "a")
+        fmanager.openNuggetFile()
         
         for block in data:
             mail_ids += block.split()
@@ -60,21 +56,30 @@ def readMail():
                     else:
                         mail_content = message.get_payload()
                         
-                    NugFile.write(f'From: {mail_from}')
-                    NugFile.write(f'Subject: {mail_subject}')
-                    NugFile.write(f'Content: {mail_content}')
+                    fmanager.appendNuggetFile(f'From: {mail_from}')
+                    fmanager.appendNuggetFile(f'Subject: {mail_subject}')
+                    fmanager.appendNuggetFile(f'Content: {mail_content}')
                     
-        NugFile.close()
         imap.close()
         imap.logout()
     except Exception as e:
         print(e)
 
         
-readMail()
+#readMail()
 
 
 """
+
+txt = '.txt'
+        emailNug = "EmailNugget"
+        Nuggets = (emailNug + fmanager.timeNow() + txt)
+        
+        NugFile = open(os.path.join('C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\MorningNuggets\\' + Nuggets), "a")
+
+
+
+
 for i in range(messages, messages-N, -1):
             res, msg = mail.fetch(str(i), '(RFC822)')
             
