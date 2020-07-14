@@ -1,0 +1,1222 @@
+
+From : "Robinhood Snacks" <noreply@robinhood.com>
+From: Google <no-reply@accounts.google.com>Subject: Security alertContent: W2ltYWdlOiBHb29nbGVdDQpRdWlja3N0YXJ0IHdhcyBncmFudGVkIGFjY2VzcyB0byB5b3VyIEdv
+
+b2dsZSBBY2NvdW50DQoNCg0KZHRlbWFpbDA5OEBnbWFpbC5jb20NCg0KSWYgeW91IGRpZCBub3Qg
+
+Z3JhbnQgYWNjZXNzLCB5b3Ugc2hvdWxkIGNoZWNrIHRoaXMgYWN0aXZpdHkgYW5kIHNlY3VyZSB5
+
+b3VyDQphY2NvdW50Lg0KQ2hlY2sgYWN0aXZpdHkNCjxodHRwczovL2FjY291bnRzLmdvb2dsZS5j
+
+b20vQWNjb3VudENob29zZXI/RW1haWw9ZHRlbWFpbDA5OEBnbWFpbC5jb20mY29udGludWU9aHR0
+
+cHM6Ly9teWFjY291bnQuZ29vZ2xlLmNvbS9hbGVydC9udC8xNTk0Njk3MzU1MDAwP3JmbiUzRDEy
+
+NyUyNnJmbmMlM0QxJTI2ZWlkJTNEMTExNjkyMDYwNDA0MTgwODIwMSUyNmV0JTNEMD4NCllvdSBy
+
+ZWNlaXZlZCB0aGlzIGVtYWlsIHRvIGxldCB5b3Uga25vdyBhYm91dCBpbXBvcnRhbnQgY2hhbmdl
+
+cyB0byB5b3VyDQpHb29nbGUgQWNjb3VudCBhbmQgc2VydmljZXMuDQrCqSAyMDIwIEdvb2dsZSBM
+
+TEMsIDE2MDAgQW1waGl0aGVhdHJlIFBhcmt3YXksIE1vdW50YWluIFZpZXcsIENBIDk0MDQzLCBV
+
+U0ENCg==From: Google <no-reply@accounts.google.com>Subject: Critical security alertContent: W2ltYWdlOiBHb29nbGVdDQpTaWduLWluIGF0dGVtcHQgd2FzIGJsb2NrZWQNCg0KDQpkdGVtYWls
+
+MDk4QGdtYWlsLmNvbQ0KU29tZW9uZSBqdXN0IHVzZWQgeW91ciBwYXNzd29yZCB0byB0cnkgdG8g
+
+c2lnbiBpbiB0byB5b3VyIGFjY291bnQgZnJvbSBhDQpub24tR29vZ2xlIGFwcC4gR29vZ2xlIGJs
+
+b2NrZWQgdGhlbSwgYnV0IHlvdSBzaG91bGQgY2hlY2sgd2hhdCBoYXBwZW5lZC4NClJldmlldyB5
+
+b3VyIGFjY291bnQgYWN0aXZpdHkgdG8gbWFrZSBzdXJlIG5vIG9uZSBlbHNlIGhhcyBhY2Nlc3Mu
+
+DQpDaGVjayBhY3Rpdml0eQ0KPGh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9BY2NvdW50Q2hv
+
+b3Nlcj9FbWFpbD1kdGVtYWlsMDk4QGdtYWlsLmNvbSZjb250aW51ZT1odHRwczovL215YWNjb3Vu
+
+dC5nb29nbGUuY29tL2FsZXJ0L250LzE1OTQ3MDEzMzcwMDA/cmZuJTNEMjclMjZyZm5jJTNEMSUy
+
+NmVpZCUzRC0yMDIxMTc5OTU2MTA1OTUzODklMjZldCUzRDA+DQpZb3UgcmVjZWl2ZWQgdGhpcyBl
+
+bWFpbCB0byBsZXQgeW91IGtub3cgYWJvdXQgaW1wb3J0YW50IGNoYW5nZXMgdG8geW91cg0KR29v
+
+Z2xlIEFjY291bnQgYW5kIHNlcnZpY2VzLg0KwqkgMjAyMCBHb29nbGUgTExDLCAxNjAwIEFtcGhp
+
+dGhlYXRyZSBQYXJrd2F5LCBNb3VudGFpbiBWaWV3LCBDQSA5NDA0MywgVVNBDQo=From: Google <no-reply@accounts.google.com>Subject: Critical security alertContent: W2ltYWdlOiBHb29nbGVdDQpBY2Nlc3MgZm9yIGxlc3Mgc2VjdXJlIGFwcHMgc2V0dGluZyBoYXMg
+
+YmVlbiB0dXJuZWQgb24NCg0KDQpkdGVtYWlsMDk4QGdtYWlsLmNvbQ0KQWNjZXNzIGZvciBsZXNz
+
+IHNlY3VyZSBhcHBzIHNldHRpbmcgaGFzIGJlZW4gdHVybmVkIG9uIGZvciB5b3VyIEdvb2dsZQ0K
+
+QWNjb3VudCBkdGVtYWlsMDk4QGdtYWlsLmNvbS4gSWYgeW91IGRpZG4ndCBjaGFuZ2UgaXQsIHlv
+
+dSBzaG91bGQgY2hlY2sNCndoYXQgaGFwcGVuZWQuDQpDaGVjayBhY3Rpdml0eQ0KPGh0dHBzOi8v
+
+YWNjb3VudHMuZ29vZ2xlLmNvbS9BY2NvdW50Q2hvb3Nlcj9FbWFpbD1kdGVtYWlsMDk4QGdtYWls
+
+LmNvbSZjb250aW51ZT1odHRwczovL215YWNjb3VudC5nb29nbGUuY29tL2FsZXJ0L250LzE1OTQ3
+
+MDEzODc0MzQ/cmZuJTNEMjglMjZyZm5jJTNEMSUyNmVpZCUzRC0xMzQwODg4NjQ5NzkzNjA3Nzkw
+
+JTI2ZXQlM0QwPg0KWW91IHJlY2VpdmVkIHRoaXMgZW1haWwgdG8gbGV0IHlvdSBrbm93IGFib3V0
+
+IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXINCkdvb2dsZSBBY2NvdW50IGFuZCBzZXJ2aWNlcy4N
+
+CsKpIDIwMjAgR29vZ2xlIExMQywgMTYwMCBBbXBoaXRoZWF0cmUgUGFya3dheSwgTW91bnRhaW4g
+
+VmlldywgQ0EgOTQwNDMsIFVTQQ0KFrom: Dawson Tocarchick <dawson.tocarchick@gmail.com>Subject: Fwd: 1 new engineering Intern job in Camden, NJContent: ---------- Forwarded message ---------
+
+From: Indeed <alert@indeed.com>
+
+Date: Mon, Jul 13, 2020 at 7:06 PM
+
+Subject: 1 new engineering Intern job in Camden, NJ
+
+To: <dawsontocarchick@gmail.com>
+
+
+
+
+
+ARO Group has an opportunity for you!
+
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+
+=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=
+
+=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C   =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C
+
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+
+=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+
+=8C =E2=80=8C =E2=80=8C   =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C=
+
+ =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+
+=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C
+
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=
+
+=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=
+
+=8C =E2=80=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =
+
+=E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C  =E2=80=8C =E2=80=8C =E2=
+
+=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C =E2=80=8C
+
+[image: indeed-logo]
+
+<https://www.indeed.com?utm_campaign=3Djob_alerts&utm_medium=3Demail&utm_so=
+
+urce=3Djobseeker_emails&from=3Dja&tk=3D1ed56mo9s3dd4802>
+
+1 new engineering Intern job in Camden, NJ
+
+These job ads match your saved job alert *
+
+=E2=80=8C
+
+Marketing Intern
+
+<https://www.indeed.com/rc/clk/dl?jk=3D76130da32f151f29&from=3Dja&qd=3DRnZh=
+
+MybXSk4M3QtTVGXWoeLTRPDS3wf4Cp79zC46SnRVWBAOepGHdwnSzmfW5Hk9Br5-CO8JV_vcUzm=
+
+4R3ZsuwpDdIPaKjcvMSL1n07zXjE&rd=3DAbLHrm6GRQMtYBMzyEs2L1_MKnaSAFGAsD6kfERFt=
+
+3g&tk=3D1ed4vbehaqquh801&alid=3D5eced3b94cfb9a2a558fe226>
+
+ARO Group - Philadelphia, PA
+
+$10 - $16 an hour
+
+Remote work available
+
+We are looking for a dynamic marketing *intern* to start immediately! ARO
+
+Group is a collection of associated real estate companies specializing in
+
+investments,=E2=80=A6
+
+Easily apply
+
+Jul 13
+
+<https://www.indeed.com/rc/clk/dl?jk=3D76130da32f151f29&from=3Dja&qd=3DRnZh=
+
+MybXSk4M3QtTVGXWoeLTRPDS3wf4Cp79zC46SnRVWBAOepGHdwnSzmfW5Hk9Br5-CO8JV_vcUzm=
+
+4R3ZsuwpDdIPaKjcvMSL1n07zXjE&rd=3DAbLHrm6GRQMtYBMzyEs2L1_MKnaSAFGAsD6kfERFt=
+
+3g&tk=3D1ed4vbehaqquh801&alid=3D5eced3b94cfb9a2a558fe226>
+
+1 new job found
+
+
+
+View all jobs
+
+<https://www.indeed.com/jobs?q=3Dengineering+Intern&hl=3Den&from=3Dja&l=3DC=
+
+amden%2C+NJ&radius=3D25&alid=3D5eced3b94cfb9a2a558fe226&tmtk=3D1ed4vbehaqqu=
+
+h801&utm_campaign=3Djob_alerts&utm_medium=3Demail&utm_source=3Djobseeker_em=
+
+ails&of=3D1&fr=3Dt>
+
+View jobs: since yesterday
+
+<https://www.indeed.com/jobs?q=3Dengineering+Intern&hl=3Den&from=3Dja&l=3DC=
+
+amden%2C+NJ&radius=3D25&alid=3D5eced3b94cfb9a2a558fe226&tmtk=3D1ed4vbehaqqu=
+
+h801&utm_campaign=3Djob_alerts&utm_medium=3Demail&utm_source=3Djobseeker_em=
+
+ails&of=3D1&fr=3Db&fromage=3D1>
+
+- for last 7 days
+
+<https://www.indeed.com/jobs?q=3Dengineering+Intern&hl=3Den&from=3Dja&l=3DC=
+
+amden%2C+NJ&radius=3D25&alid=3D5eced3b94cfb9a2a558fe226&tmtk=3D1ed4vbehaqqu=
+
+h801&utm_campaign=3Djob_alerts&utm_medium=3Demail&utm_source=3Djobseeker_em=
+
+ails&of=3D1&fr=3Db&fromage=3D7>
+
+=E2=80=8C
+
+Would you like to help other job seekers?
+
+=E2=80=8C
+
+[image: Company Logo]
+
+Rate your experience working at
+
+Fit Life
+
+[image: Write a review]
+
+<https://www.indeed.com/cmp/_/jaclick?rd=3DAAAAAMc84oDUXJ%2FpVZP2g77iYIRSu6=
+
+KCUbui9zu5xm8UeepH6vEFKA918wINY4N8c%2FYFKiywIzmAKw%3D%3D&campaignid=3Dac197=
+
+6ja1-1-1-t1&tmtk=3D1ed4vbehaqquh801&acctCmpTkn=3D00000000f9dc565c24835b8f6c=
+
+d81e3534654272e4c50e2d4bf539842ce3d68cea7f5269c9349f3a0d30d08f632a7c69>
+
+=E2=80=8C
+
+Your review helps other jobseekers determine if this company is the right
+
+fit.
+
+Edit this job alert
+
+<https://subscriptions.indeed.com/update/5eced3b94cfb9a2a558fe226?token=3DC=
+
+kA3xTdlnV920N8nLTGz07RAMvDHmHOawbg2GCy3oeKD7MLVBY9tWnZPQGaHdhBn0wxk5glkkKi1=
+
+LGvgUnwrZ28WEiBlHUu1hth5YbPWFQPDM_Hv_3fbPjK5XLlB_aFCefF4tBoQG17CGqPqjG3x6dh=
+
+GBgzRGQ%3D%3D&co=3DUS&hl=3Den&tmtk=3D1ed4vbehaqquh801&from=3DjaEditAlert>
+
+Salaries estimated if unavailable. When a job posting doesn't include a
+
+salary, we estimate it by looking at similar jobs. Estimated salaries are
+
+not endorsed by the companies offering those positions and may vary from
+
+actual salaries.
+
+*Displayed here are Job Ads that match the job alert query you saved.
+
+Indeed may be compensated by these employers, helping keep Indeed free for
+
+jobseekers. Indeed ranks Job Ads based on a combination of employer bids
+
+and relevance, such as your search terms and other activity on Indeed. For
+
+more information, see the Indeed Terms of Service
+
+<https://www.indeed.com/legal?hl=3Den>
+
+=C2=A9 2020 Indeed, Inc.
+
+6433 Champion Grandview Way, Building 1, Austin, TX 78750
+
+Privacy Policy <https://www.indeed.com/legal?hl=3Den#privacy> | Terms
+
+<https://www.indeed.com/legal?hl=3Den> | Help Center
+
+<https://support.indeed.com/hc/en-us>
+
+Manage subscriptions
+
+<https://subscriptions.indeed.com?token=3DCkA3xTdlnV920N8nLTGz07RAMvDHmHOaw=
+
+bg2GCy3oeKD7MLVBY9tWnZPQGaHdhBn0wxk5glkkKi1LGvgUnwrZ28WEiBlHUu1hth5YbPWFQPD=
+
+M_Hv_3fbPjK5XLlB_aFCefF4tBoQG17CGqPqjG3x6dhGBgzRGQ%3D%3D&co=3DUS&hl=3Den&tm=
+
+tk=3D1ed4vbehaqquh801&from=3Dja>
+
+| Unsubscribe from this email
+
+<https://subscriptions.indeed.com/alerts/cancel?token=3DCkA3xTdlnV920N8nLTG=
+
+z07RAMvDHmHOawbg2GCy3oeKD7MLVBY9tWnZPQGaHdhBn0wxk5glkkKi1LGvgUnwrZ28WEiBlHU=
+
+u1hth5YbPWFQPDM_Hv_3fbPjK5XLlB_aFCefF4tBoQG17CGqPqjG3x6dhGBgzRGQ%3D%3D&co=
+
+=3DUS&hl=3Den&tmtk=3D1ed4vbehaqquh801&subId=3D5eced3b94cfb9a2a558fe226&rgtk=
+
+=3D1ed56mo9s3dd4802&from=3Djatop>
+
+
+
+
+
+--=20
+
+Dawson Tocarchick
+
+856-952-7091
+
+Rowan University | Electrical & Computer Engineering | Class of 2021
+
+From: Dawson Tocarchick <djtorch123@gmail.com>Subject: yerrContent: yee yerrr
+
+From: Yahoo Finance Morning Brief  <yahoo@newsletter.comms.yahoo.net>Subject: Making sense of Tesla's parabolic rallyContent: From: "Robinhood Snacks" <noreply@robinhood.com>Subject: =?UTF-8?B?8J+NvyBOZXRmbGl4J3MgcHJlLWVhcm5pbmdzIA==?=Content: Turns out it's a 130-year-old flavor company
+
+
+
+December 19th
+
+
+
+Disclosures http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHhlV=
+
+HSZUg2RjnmzAANAYlJXYYgyWQ1sztkfLzoo9man-2BnTE7sfoTf0nk2D4ybnWwXUaGtIXLarNyk=
+
+aHXP7nvvT7OHEZsbHIJzKPYGG6swxeTqbA2_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMD=
+
+N6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-=
+
+2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUA=
+
+VFgToaZACqZsB3E6GhW0AQEQRV7UTkblLTxFCB0xQknV6hdt-2F3iKr7-2By1B-2BMrZHxufpIE=
+
+QPQ20iXnfO2u2eGPD-2FU9zYYqGAidAOnlO4ycokUfdVLoYFXwCzhYCJmd4ka4aBOaeb1LIYYzP=
+
+HIgfO1BpzJOt9W4Mv7ItfxE90bf1522DtZd-2BHBMN2bMpqZiIv0gj8KMJKfuJs8QQIprUafg94=
+
+WROTo7-2F-2FCUK2TMDruSkJT1RCU9T4CYBL2llQJ-2BGe9DQ3RoE1bwqwaehE5ODr-2BQ11CQY=
+
+kKiUJicmQ-3D-3D
+
+
+
+http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHvD1boXzg2LnBS3-=
+
+2Fj-2FyVcTYD4x0wjlEXjxMas2QsbybgYyJ4_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mM=
+
+DN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK=
+
+-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDU=
+
+AVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT3HBl0Lv6mWZgWXdYhCrFW9TGIJCQR-2F7EwmfciW=
+
+Qz1J8OLlykszImA5k4PwiH3Ig8HBSvV1ngAdbBQKDcyTHr9KtIRrrJOoSodx0aaNv-2BNTrGVSI=
+
+QpQ66odE3quhlIWwHCGQkckNJQ6nKwXPwzg1-2FyKNZ28IXDulwoVyLdT2opVTmtPSWw7T4YzKG=
+
+-2Fko7vlKPgH-2Bl-2Fsq2sEjBu184qe9stimX7Y-2BfCQvZFKRjCrXALJFgwQAefbM7k2opbno=
+
+9MUIXQ-3D-3D
+
+
+
+When you're a shareholder in International Flavors & Fragrances
+
+
+
+Dow Jones
+
+ 28,239 (-0.10%)
+
+
+
+S&P 500
+
+ 3,191 (-0.04%)
+
+
+
+Nasdaq
+
+ 8,828 (+0.05%)
+
+
+
+Bitcoin
+
+ $7,269 (+10.40%)
+
+
+
+10-Yr US Treasury
+
+ 1.922 %=20
+
+
+
+Hey Snackers,
+
+
+
+The age of endless bathroom Insta-scrolling is over. Behold, the tilted toi=
+
+let http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHk4UwVm5TN6R=
+
+iMA0mUQsgH-2BbppnJMr6kPmrMmYYNciQSRZL9-2B1V-2FoqFs1s3hyUAwf2rqV4QNs1yp8CSWs=
+
+Rxc5b6OWcHX4WM8Q-2Fkk1zuV1MSFY1mZ3q6e0DmhnsRFECe3q672gg66XkPi1Sn2trDz9J8-3D=
+
+XgAW_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6Z=
+
+L4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5j=
+
+zkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkb=
+
+lLT60jHpKzQVcsvjoBZpRwfMMgc5qySQw-2FSiHDYAkvNFa3w8MVkEgkO7h8Kv4PWPORZiUftpe=
+
+fqCEXFlD94IlqDryhXwGjjqUOCEz-2F0VWmJw6xvbEtOtOqHMTwfsuE-2FDaRie0Z6vxSlHTa-2=
+
+FYa541V7brwQ7uePCigiiWfDgBvSGPvYag30bEHHpYvEYOw19jniSTX6UZCsb9DIA8utq3aLJrY=
+
+umFRVC8sBMrVMDOqCy5v4QZYcoowI9AzsdKOVw9wUvA-3D-3D A 13-degree angled seat s=
+
+trains your legs =E2=80=94 that subtle design nudges you back to your desk =
+
+ASAP.
+
+
+
+The market=E2=80=99s 5-day win streak ended as investors start chilling ear=
+
+ly for the holidays =E2=80=94 but first we've got Nike's earnings due today.
+
+
+
+Senses
+
+
+
+Earth's biggest flavor/scent creator just merged (all because of faux meats)
+
+
+
+You taste them daily... but don't know 'em. Back in 1889, a Dutchman with a=
+
+ strong sense of smell founded a flavor company. A century of mergers later=
+
+, International Flavors & Fragrances http://sg.robinhood.com/ls/click?upn=
+
+=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwX0v7odNlScYRfekY-2BVXApnkK1Y=
+
+_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pf=
+
+WUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjG=
+
+R9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT0=
+
+hxKd2tzwieLejnqoXlcoFQxYOIF07b3PyD92Pu7epYCTD7AZ-2F2mmkwVnIeqkmdL2kzfbsiuD6=
+
+0gNWO5iw-2BvCY3QciTZ1nmDCDAVKieojFvlfpoOlLpHucs1gqdoXnt-2BxP3y-2FYdy3MN0jMn=
+
+dThLpCklrzZZGsOm1KukwZyMTkZ1nmtA7E4BRBua5F6nOopCmwoA33wFLO1fx-2B0JlRP948Hcv=
+
+Wh-2FrXoTeCwwpbOozJidm5ZSBdZTq1y4D5HASgOOEw-3D-3D (IFF) is publicly traded =
+
+and worth $14B. IFF makes your gum taste like mint and shampoo waft of coco=
+
+nut =E2=80=94 now it's merging http://sg.robinhood.com/ls/click?upn=3D6fntG=
+
+irSE5selsQKrSSUHoXpvGdAhJkM3LgtAo-2FCdRGZjFsP-2F9BLd5Dx5g6u6N2Yhnq3OtRz2A6x=
+
+N2EYz0bapjFOy8RQZ-2BBwzoe1NCD4EDUKyQDqCqmE6Bn9sWhRgkDyGbhISkQNCVA1RSJ-2FMFo=
+
+y-2BP8wY4-2By0wE-2Bif6vUOWchUQ-3Djkar_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5m=
+
+MDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZx=
+
+K-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweD=
+
+UAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT0WMjQ0cbN-2FH8c4R-2FktHui3s-2BdsxMuVj-2=
+
+BUSyzm6zPTB7kd7LacTR5fZRIL9ek0s-2BP-2BzcrEuM6jGy4TxYIOJ-2Fp8tq9vR1iN8K6U5qI=
+
+KkQklKU2MQxQLBh3SN091jsnwVbkCsxP7wJjBGl-2F0hx8TEOkxRzMSB4mr6mXonwzHskR290XG=
+
+71m5mME2ss7au7iaTt0-2FpALsm5tlPTSEK4Wwx0NiL-2Bz926nh8kPpX4oTm9FdFx8ZZ0PHuju=
+
+OYcU0ATI3l2vw-3D-3D with a way larger company.
+
+
+
+IFF sells its sensory formulas to the consumer goods companies that make wh=
+
+at you eat and smell, with sales split between "Taste" and "Scent."
+
+ Its 5,000-square foot greenhouse in New Jersey boasts 1,300 tropical plant=
+
+s whose enzymes end up in that eau de anything perfume.
+
+ SnackFact: IFF sent a rose into space, where lack-of-gravity transformed i=
+
+ts scent =E2=80=94 then they brought it back to commercialize the fragrance=
+
+ as "Space Rose http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSU=
+
+HofUJexlB0O8plMUyOV8sBe4ihdA9DYUlRfn3JAjs7uZh1Gg0sCmNOu-2BKrZkKFkkvQ-3D-3DL=
+
+YuG_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL=
+
+4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jz=
+
+kjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkbl=
+
+LT094VsY5uyuASzdzxQuwGxs0IvGqGylc1sYyx5T97yPHcXPOAx-2FVbW0lm7P01n2W2UPhdkXT=
+
+2xDa9bJCmouCu5D0BEG3O8EajEaw0asVDbRoms-2Bkvr2ji0IGskvxe5hYhtwpe3RlR0g3eYJ4U=
+
+TnLtNZ-2Bs2zIQRPoOkJz25vk1UYj-2FmZpRXAcoyWW7b-2F29kHUfyMJF2I0xNxGs8YiuCMrRD=
+
+Ue4qgH6945ABUia0xOZloeKuf0LXqplkNZfcLNw-2FZfMQ-3D-3D"
+
+
+
+Scent of a merger... After 123 years, IFF is merging with the nutrition-foc=
+
+used subsidiary of chemical legend DuPont http://sg.robinhood.com/ls/click?=
+
+upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwVOwGX-2BLpYBEwIkc6iLWObh8=
+
+63o_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL=
+
+4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jz=
+
+kjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkbl=
+
+LT-2FUJAUfr9gJ90u1BIKd-2FarjMI-2FOductS3Xy-2FsMXysr56VDFxXBOvUFEZ8lIF-2BSdv=
+
+mboNcOCJaX-2BdX-2FU-2FCQJKXo21T0voHxmjVZ-2FbJekjUA3mMk0f8rXZ71fJwBcVKaCwInl=
+
+1GPyvwGegmCuvLyAJPk7GF-2BxD97aeSyct3nrRE7FA0DTQkh421Z0ZKk6HzQy0pWA6dsmx-2FL=
+
+40HRWSIsHPi7C6H60udfRBBVaMAtyTGejV7ajJ0ffsyAgCUwE2Exwu3Q-3D-3D to create a =
+
+$45B molecular science company. But investors aren't feeling the flavor, dr=
+
+opping IFF shares 9% after the announcement.
+
+
+
+THE TAKEAWAY=20
+
+
+
+This merger isn=E2=80=99t about synergy =E2=80=94 it=E2=80=99s a bet on 1 p=
+
+roduct... Plant-based meat. Turns out IFF creates flavors/colors for plant-=
+
+based meats and DuPont produces plant-based proteins. Their customers are a=
+
+lt-beef icons Beyond Meat and Impossible Foods. Together, IFF/DuPont could =
+
+leverage its supply chain importance to jack up prices, or develop better i=
+
+m-meat-ations at a molecular level.=20
+
+
+
+Ship
+
+
+
+FedEx's profit puppy is disappearing =E2=80=94 and the new puppy it's chasi=
+
+ng is expensive
+
+
+
+"We are at the bottom"... An actual quote from FedEx http://sg.robinhood.co=
+
+m/ls/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwW-2B1rHsA211Y2=
+
+4MzY1mXvlIiHed_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke=
+
+5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6T=
+
+UA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0A=
+
+QEQRV7UTkblLT00fM83TWtIliL3k8yizPWhRAtyROkBDLuadQ5i-2BHUtXQS39RMCMXJ-2FB9wy=
+
+SSEzk7QFUe4e1O-2FP45FddTdAhsHepw9DSnkCPX096Xj0C9Up6J-2Bl5gcB8ByHOG8P-2Fcfue=
+
+f-2Bii9U2-2FRWPP-2BwRE76NSqdPsneOHgcrpWxAc-2FvE7x31ZYKd1RdmE22e1lvzG-2FHPm-=
+
+2BD8Inm08a07NLTzdjG4Vk0rjqPJK-2B7mf8CZH72-2BxOhea6hp6zVzD87hG-2FSOtB-2FcENw=
+
+-3D-3D CFO, or Chief Freakout Officer, who called last quarter's 40% profit=
+
+ drop "horrific http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSU=
+
+HsI674iUBCDNYr-2B3kwB99YqAXq80HGMT0qgz6Gq1ivxSq-2FIU8t75miqsQ-2F1Um4LqNArbg=
+
+QznlupRcTQjXl-2Foe5gpK92UQ2SxYAVefl9tOPoe2hDw_jAZKG7ugqMXjzuQx-2BVAAWukCb8i=
+
+NB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZP=
+
+MzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-=
+
+2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLTyXFflIuRyo7sVMolEGdezJoNlug-2B6=
+
+bgUDGB3yGDvUwxTFkGTkvCeMVzjHHfkhmKS-2BOFdo1ztbE0pcwjYGCi8I6j3yZ0AhPOgcUSFVh=
+
+-2B9M6zWFYQyV8b8HUB6-2FtMkoErUhYC7U0vlG6f6R8FZh-2BbUSG-2FVw-2BIEa7Mh3tl5iRj=
+
+K7a2ugiu2of8-2Bq9hZ0m3i1JuFa0jWg0ayZY112fGqw1IYpb4453op1DMEjPrKXSGmM3wKG-2F=
+
+2ZvOoKnpt1BLgGgpkmQ-3D-3D" (his words). The fallout:
+
+
+
+FedEx shares dropped 10% after the report.
+
+ Now it's lost over $4B in market value since Tuesday.
+
+ And it cut its projections for the holiday quarter (the 4th-straight quart=
+
+er it's done that).
+
+
+
+FedEx stuffed 2019 with excuses... Execs blamed the costs of expanding grou=
+
+nd service, global trade disputes, a late Thanksgiving, and the loss of Ama=
+
+zon as a customer (FYI, rival UPS' stock is up 20% this year). The big prof=
+
+it loser http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHkYJFA3=
+
+tUXqLZNTmIOP1GJW2r4GAaC9IHsIeEti4W5oiueAXuzipf4SM2ZPoC2cWQw1JM-2BetGAxMB68W=
+
+sGoCs0cA9joi-2FF0O9piKpHusf40TEcXh_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN=
+
+6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2=
+
+FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAV=
+
+FgToaZACqZsB3E6GhW0AQEQRV7UTkblLT5JtP3vlTE-2B8lvw-2FqUZL2TkcpFIF6105v4vAo6f=
+
+pkVlWn4-2BqRcKLwfkIfnU7UBZR61N0v3Z3jgTvAjP9aU2D6HmHlfSziaEdXIAAq-2FxYPKGlD-=
+
+2BgX5IOny5O4FuQKBUCgqhgSn4WNUy6XfdLth5id4nd7N3xDd9wO-2BbwKowh4L-2FPETzXZOEd=
+
+-2BD4drkS1rw2pug2vvi4arzR99OZTMdWK5mVyjD-2Byy1rF5MTljh4uIqJ3P3pLvCdX8O8XiX0=
+
+cukXypxQ-3D-3D for FedEx was ground delivery. Lots of it.
+
+
+
+It takes big bucks to expand ground delivery to 7 days a week (think more t=
+
+rucks, new facilities, and weekend shifts =E2=80=94 all cost $$$).
+
+ Typical ecommerce deliveries, like replacing your headphones (again), are =
+
+generally light-weight, one-off deliveries =E2=80=94 those generate less re=
+
+venue than bulky business packages and require more costly routes/drivers.
+
+
+
+THE TAKEAWAY=20
+
+
+
+Getting out of your comfort zone is hard... For decades, FedEx's profit pup=
+
+py has been high-priced, overnight business shipments that you're expensing=
+
+ (like contracts that need to be signed yesterday). Now, you're e-scribling=
+
+ digital John Hancocks, instead. So FedEx execs are cockily optimistic that=
+
+ ground delivery investments to snag more ecommerce packages will pay off i=
+
+n 2021 =E2=80=94 they boldly claimed they'd "start lapping http://sg.robinh=
+
+ood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHoXpvGdAhJkM3LgtAo-2FCdRGhg46TdT=
+
+1vxlswXXyf2pFF6yP7G-2B38owDiOFZ4ul1-2BETCNV5eHu1EdyLVJAJvpCM7nI2r9wznpP7b-2=
+
+BMc5ywZIg43Mr_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5=
+
+-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TU=
+
+A41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQ=
+
+EQRV7UTkblLTzKv7-2BAlxILtnac4NB7zMULqpjKT48-2F8KSIe-2BWW3FwvqEP6p3uCG9Pjtqp=
+
+YVI-2F9yQWOub4Jznjz1WlItQAfY0kuJj-2FbmgXtdEPMm9Zd1FI4LGbrxO1INhWpH4BJnWn5Y9=
+
+29pHPntiGgBJT-2FA8hWyY43IpWdKTlIXz-2B2rafrz6SESbas9eCA-2FT2nv-2Fqts-2BWWBUd=
+
+qf6LWoXHx-2FE9PuRKPGX8BhaafjfgZh9M9W1UzfqD0izZxgcEc8ba8ckifHw6WIpg-3D-3D" A=
+
+mazon.=20
+
+
+
+What else we're Snackin'=20
+
+
+
+Carpool http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHsI674iU=
+
+BCDNYr-2B3kwB99YoBnVylqYcIokvSX5KNM1VCM67zzoAZCj8wL5va-2B9uWFcEM207q0xht3OI=
+
+BY6QIwRkyNjVJA8HLjPKLUGHMF2H6JG_A_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6=
+
+KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2F=
+
+xQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVF=
+
+gToaZACqZsB3E6GhW0AQEQRV7UTkblLTz5bWNwOxGEv2-2FL-2BrvENVQR0hpGg-2FOGk6jMYv5=
+
+ttlIux1ljCULr2IuYJfKpa3-2FErhpca9A00Ys6LnH0fH-2BhlO8wxzOTrmw3p3IP-2B0gr5I-2=
+
+B7l-2FumEaSuyuh15tUddE09NXPuimcRza2BXlB-2Bif7pdSnyX6ZmjDWp-2FwR6EvP5HuoQ3DV=
+
+aEIPM7aPuDNhid0-2Bhp2kXOlfr7ntEskWqJ4s05xnLmQGz310QBxWmOMf8trLquh1htYzDV0Ir=
+
+je-2Bi9SlTTqA-3D-3D Fiat Chrysler http://sg.robinhood.com/ls/click?upn=3D6f=
+
+ntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwXSbs9hLSY5TxCq2-2BBTiScNdzU-_jAZK=
+
+G7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXW=
+
+G66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-=
+
+2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT9A4dcl=
+
+vGo7DStBPyW0cOGpKOtAfDC3x7hFv5LrZZugxntd-2FQPMwTnrkUDeQQnENzLMer-2BF3CCPadz=
+
+XaJV1UxGtARRtaYm40nmo2bpGr-2BCycf0aUDxwXR1ZElCTjWq0VHR5C-2BlPKBiHLBx-2BoU1u=
+
+N8gofMJ7ZvphigD2Q0wIYAHyAPVgwrM5pt6i0B7ni8P7W5k4R93bSX5aHO9qzktAKAykOkRPCnn=
+
+WFIxAQ2MIUgi59gO2wMRaMKVCXjc32dA9VqQ-3D-3D and Peugeot's board just approve=
+
+d their merger =E2=80=94 that'll create Earth's 3rd largest automaker
+
+ Insta-Banned http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHo=
+
+XpvGdAhJkM3LgtAo-2FCdRFevqIJYmIR4-2FqTvZh2C3bSQ2mVkV40eRRWLv3IPe9qb7ePTl37c=
+
+WGlAomphutGQ-2FVv6fetybES3Q29cVhobwWY-2BFhDjtoo37hqZsxABwA1bg-3D-3DvazJ_jAZ=
+
+KG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIX=
+
+WG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG=
+
+-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT7nbo-=
+
+2Fa6G9qI8D5xAKmXQnEq1In0ywnNQ2gdXq95g9V5XuoJ9u8ilIqLkB3wyhETtbshFY-2BZoW1sn=
+
+sLiIOm-2Fjcg-2B6EKBfgRSWV7f0bw-2BphbjyfuCBqma-2B4PTDch0Z1x7DW0HeL5mZkFnxgqU=
+
+YvvZ-2BXh6Rgmf-2FjCLTpLhkZgMF-2BrZuoya3pUqsUK-2BdCQQWOGNyTqJpNNxjR27VHF-2Fb=
+
+zcyUvwvYJ2JwOMz4RnHAT2aDemDKZHjzhpzsJxLTmn12em2Zw-3D-3D Instagram http://sg=
+
+.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwX=
+
+61NhNTBio9eSa8GosKMJpH5Ny_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29k=
+
+e6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3=
+
+i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACq=
+
+ZsB3E6GhW0AQEQRV7UTkblLT8KA8qRVc15XxoORHJuVly1ONPfvZ2tW0blF3Cru9MN0tsO46eMp=
+
+xCGOJnsblJIkx0h8Z8tzZf-2BjY8f0hznBxuIdyWzawA3Ww2Uz9CnNGiFFFZ9Zl860V8Y7kjkqd=
+
+okh4REmq3uJMel8vVtLNE1a2bhnkntvXSU3HYuHynts2bTxGtkduNRZpQ8xJ8I0JIC2n08PGA9Y=
+
+r-2Byq9Yg4zK34e4qViTj38T4UJvaSZHmPE49vB6zxjoFmiKgMGw7fVgR5yQ-3D-3D bans inf=
+
+luencers from getting paid to promote vaping, tobacco, and weapons
+
+ IoTeam http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHoXpvGdA=
+
+hJkM3LgtAo-2FCdRHO95DfFGUaPArPGCOK-2FwiI4dQQii6NuznrxcnJH-2FHf7Nfti960etm8K=
+
+uDhCpKNQGOFNEPrxOaQFTVQ23tt615PREvy_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMD=
+
+N6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-=
+
+2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUA=
+
+VFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT2FwqxfOzJNPbgUMHyIzJYuiJH4lAN1SFTanB2e9PJ=
+
+zH03H0imLlUyH-2BoLEUl3-2B0AcCxye6kqHjnmC9s7s5FykoqqWUbOenAQF7RFdWXuessxv4dy=
+
+AEBAQ98phU7NRxCxIRGKOy1irJBzbeXVhKyWo3lV3smFzLFC-2B0HueKLxjFEwQ5-2BW4z4ZZhU=
+
+QuMqPqoYmisrDsauPrZZ8aT8AYbxHxW0873JJk-2FoNBxpu5XuoVfXJXDA1IaIyR2-2BuTp41jX=
+
+Dzw-3D-3D Amazon http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSS=
+
+UHk6R8tCrM-2FUICq73HMQolwW0ioH-2FVIQ72kyTZi6UxOuUSC5f_jAZKG7ugqMXjzuQx-2BVA=
+
+AWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM=
+
+5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYX=
+
+VjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT8vbhAZtizZ52hfNuOE1jyGG=
+
+KWyJ0HOYsjgJYVOIzT-2BfhSgddzYtk0LTgYoYIR89teOWumrQDTYQO3bGRIbXTYsRbfyC0oCcT=
+
+pvbppah9AiBgSrnl4eh8DHs5fH8cQU7xRNQfemEkNCIo6t-2BwV7Ldu7D9r1o3vtA9CrHseLlLH=
+
+eqMMdMFAU9OLZBjcUHgJeubgwYl4y6F6rzAVLqxYWDYdMHfkNBIV20FRXvBjWgVgNSKm5YjTeb4=
+
+ZHXy-2BhkmtEHUw-3D-3D Apple http://sg.robinhood.com/ls/click?upn=3D6fntGirS=
+
+E5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwUO9PNd3k8FocCDJlAUkQhFGCnj_jAZKG7ugqMXj=
+
+zuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5W=
+
+oejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCb=
+
+FKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT6svYuIUdDGYlZY=
+
+ic8me-2FuP630F8DJv9qtt-2B7lbDoe8cOGpek4r4ztdlLrt3UqPWEMBaZL7UCuMjhoJd45QLAP=
+
+E7GZK1NKxv4mkIQACMwPhEh-2FNrpxVi9c9dBZouUL0mUe2UBh6GkjXoDBl97JUgmhcNZnG4vj0=
+
+Q2tYzWrTbDGlfdFg-2BZILrQra59QcU2-2FwGSvjzV6EFG0xfBmqdyNOnBMr54cTRrpaHO67mKV=
+
+Zgn-2FBChfOMop-2BpG5VTyg0PrULDCA-3D-3D and Google http://sg.robinhood.com/l=
+
+s/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwUAW7d2rVFOar3Pepm=
+
+WqS89CYqi_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2Fz=
+
+wIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41r=
+
+Ibt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV=
+
+7UTkblLT3fqjn4QPs9MhxdvdhsFIxiViwwPxcb0S5VTfAW36KFbeCkuTVw2JOwcbqlb0GiLQUIw=
+
+f6srx1w4zxyrEjiJpf7bKQFSHWZkBDiulAPBt3d1sB-2BN0YFRV3HigMkHF3UEH7qHmiftDJ8VV=
+
+fFTJrBYd8pMXZgPEHC-2BVnkimzVuMVIszDT0s3Llqr6sbPw8pNp-2FOnSDsrw5z7AnvEihQgJO=
+
+6BQGXr25gcD5MSFUwyHy-2F2m9jD20KbZXJdCsxKq7zXED9w-3D-3D announce a connected=
+
+ partnership to make all your smart home gadgets have a common language to =
+
+talk to each other
+
+ Choco-Rich http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHlg5=
+
+1vInmSuNCkTKAzBCO2LuiC0S2HBGSyQPQ8dVqYZSydoVRQ8X6YuIPX9YsRddQL6HIKmqwKcKjXL=
+
+4h-2B1O418DfHu4AmkpNIYVxgxeggqY8j-2FJ9QJSSWc6YSIwr00ZKVTTTBkJoOHkXBp6kzjPQN=
+
+I-3Dh6OP_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2Fzw=
+
+Ij6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rI=
+
+bt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7=
+
+UTkblLT-2BRJ5hY7RNyn7DAiBKDZ22Uix57-2BuAqUwFr9xIivyhL3L5RLDaIUqE2sMf4FH0Yip=
+
+AbcjzPq7H-2BSMOZo1QbRR2VQlJeh4xwmO9UyFC80rlPoM2FFT1zYWkzvJTzs4VF3RoVfxAYhuh=
+
+p24yln6y1ioGyzr3rmAaCodWB-2FyJWbKcgcUx8g7HwnXNEFlJl82SGGz0BFibCr5n-2BlcQSgC=
+
+BFwV9RjJwlstGh54mRlnVB6nfETH4aK0yDbR2fSezIQScQ3JA-3D-3D Insomnia Cookies wa=
+
+s founded 16 years ago by a college student, but just raised $3.4M in its f=
+
+irst known round of venture capital funding
+
+
+
+The Snacks Daily Podcast=20
+
+
+
+The rumor: 1 out of every 10 Europeans was conceived in an Ikea bed.=20
+
+
+
+We're breaking down Ikea's moves into smart furniture. Wireless this, charg=
+
+ing that, connected everything =E2=80=94 Ikea doesn't have to go full tech =
+
+to benefit from tech.
+
+
+
+Listen to our award-winning 15 minute podcast, Snacks Daily
+
+
+
+http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHmiIjYuZvx-2Fyar=
+
+Q59-2FybqVPS7zMpaM5n4Kz16Y0pPFa1LLMc54STRlKfGPOcNZ2Nk7G-2BmNc35TCh53CJ-2BVU=
+
+-2BxqY-3DYkt1_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5=
+
+-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TU=
+
+A41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQ=
+
+EQRV7UTkblLT4Nx5cppZ77FzdiMaGFtdxjQmASyxStBWinME86IaDNPQkTIuYAaW8uFoT2kjOo5=
+
+10vKRa-2FfZ3nmYoKHZeA9CjMVoocVObzVcZoUB-2FJNcLj-2BApGCv-2B1PCyKwdTVjNPsRP2o=
+
+2XLo-2FXjrciCUhySlUKmuwZnI2oYfMGbZg-2FaGc2ckNHg0kXE2MIMvOkib7knjhXyJien-2Bk=
+
+0GUPpiCgdtTWyJu3iNRwrr8Bu0proKCnUe8h-2BdeNs19Qe3D0rkft16P65w-3D-3D
+
+
+
+http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHiyA-2FoGH3iqrna=
+
+aUn1eh27IPZe7qyt4-2FvDgHsKmsabM5ZgosXmh-2Few5AP2Himnps1qAXNdq4MqRIEeZu8Jp2G=
+
+pAFdkK6WxOISTvQWb-2BoRBjjOg3v1R-2BbkGZzrCsuPYqkOA-3D-3DeOeB_jAZKG7ugqMXjzuQ=
+
+x-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woej=
+
+k0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKO=
+
+oLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLTx7aC4j-2FA2M8SokQ=
+
+2DUY4KX9i7gzPG1ys3DtMcAVSuAkYuFFi69NgZcE2kcty0qJhu2j4vCK8wvOGtceRBtGUeYIR0F=
+
+2H16QH06xZ-2FRc8HUv7QW6Ub32pVr5Eem9kfwL6stPJPH8sKOO3mV1WnG3coSAcfyChQTvQJkR=
+
+zRv58oJZfWQBtcUg0e5GIsS4bSZBmgrnubK-2BvZEs44HR3w-2BRyhbayLSoAtyfLRY3Fts6hko=
+
+tQfgXtTokLd4jCO2FkvC9Yw-3D-3D
+
+
+
+http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHlUp-2BjCZ8Jq9UQ=
+
+8HFsZ2xkzlIABNCLgSs9tByH79JklQAANbTtMgNseCAVR0OyyF3dFTLTqlr8Q2amisYAorKrph7=
+
+YEl0owed2Ky2XeJpx4ocH--_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6=
+
+fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i2=
+
+0D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZs=
+
+B3E6GhW0AQEQRV7UTkblLT2ooCbfEYJ3fmiL4gDTNktUeo-2FL32CG92ZBNizTbiCg1tSqVE-2F=
+
+yIaehr9IfA9-2FiTwO5gU8M-2BHV6uKiEd1tI2EPttvglntNcxlayfNun7Mhck8Hrup0hwaZZSN=
+
+0JVw5rlw1-2FMvmotlQ7H3LqYQ-2BfKdeg5yLW5dckSSidGH0Yy21RETisoxJjMaMdJhyP70Apb=
+
+bpeAevdLiN3mrCuZgEIyuLt1es7uTvvqrWx72R7Oj5Si7DCVbDEb8C5J6Dl0azh9dg-3D-3D
+
+
+
+Snack Fact Of the Day=20
+
+
+
+Netflix released more originals in 2019 than the entire TV industry did in =
+
+2005 http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHgOdwCPTuFK=
+
+KiXGXfEet-2BgQIVTKYJhTkq0Q1ELHXzJirkvPVy0b1Ka9GD6rqzntzCc15jTqFy-2FSwmNqekA=
+
+1OQdnpt03DhEVT-2F3rMHKx-2BSr5U6DiKYBC4SI-2BBPikoiX9G1g-3D-3D3CDy_jAZKG7ugqM=
+
+XjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H=
+
+5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7om=
+
+CbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT-2FMRSZmdIZ5=
+
+wgCq0MEvNI6gqdVMMEcUlNEr3BKZRvDjNiNaqo4lHvU6wM-2FCmMFXqh6bk4g2PjYWkTIC5X3Xq=
+
+QGbe5EmWlcIhBLvnj-2BEHtQhwUV2vfoh0PEe-2F7Euwb778Fe7e6fAeUXn-2BXHv-2FetTaCd4=
+
+VNWIHzUBPaTUrjacBGF6oL8mPnkWqKQQgcyUYZtwMXJkxbEwcnri9MN1DTP3-2F2Pd-2FT69xgT=
+
+iWoSSg-2B-2BZIEOO58Ts0ZtiCEy2RApHqxoB0Bg-3D-3D
+
+
+
+Thursday=20
+
+
+
+Earnings from Olive Garden-owner Darden Restaurants http://sg.robinhood.com=
+
+/ls/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwXNVhF0IFxfVcgv6=
+
+NcI1LJU44zY_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2=
+
+FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA4=
+
+1rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQ=
+
+RV7UTkblLTz5uOjnjkeyL-2B5yEKW3PwnEle2yDniuIT28h8n1KyVQfKnYgjO8ztA5suhgbJj-2=
+
+FMEXmUDPnzwFULRhURYvHDc6I85-2F3b5bZtmWiHPr5YMGBep15MCr0jSselajDStv-2B-2FppE=
+
+ScY56LfXL7E25Q0Wf-2B-2FE-2FAfRmSBev-2BNjce-2BOQo93rwn0-2BDqfmfDBEbJzp18fM7-=
+
+2FFMb8iODCLKr4eZd2WqvorcK1p6D3akL2NcCKnMy3vaxChLqNqBBjUFYiZV0Q4xWg-3D-3D Ni=
+
+ke http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FU=
+
+ICq73HMQolwXt9wlnUqGqmyjxemmCoy4yoZbP_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5m=
+
+MDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZx=
+
+K-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweD=
+
+UAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT6K4u6Wk0I-2F-2BKS3CL4VtJ6011V1m4lzUEwPu=
+
+a-2BVgV25yUVZXb-2FabBY9ncfqQKvfctyuCJw9l4ql51Ub9JcTMrJwbxCZE3-2B7uwsML-2BTh=
+
+6JZ-2FGarqLK-2FibfU8eEVyPGk2xb6pWEKQnM9DiBoktIDAG-2BRPjdr7LqVNAu3f0QoEIy1DX=
+
+-2FfmpVSMwDf3dUQogmYxe4NKqspJJSmz7XK2bl-2BEFSwyTIlF8vhnjCDzR8gNJEJ6O2u58-2B=
+
+JLiVxQSAkvHSY6NvA-3D-3D Rite Aid http://sg.robinhood.com/ls/click?upn=3D6fn=
+
+tGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwW3nSOO8lpA5M8I7mdlcqFcIpxE_jAZKG7u=
+
+gqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66=
+
+O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb=
+
+7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT5YiMPrq7j=
+
+Ddr3fS7lb-2FHhJIju-2BEo-2B2jnEE1oNJoipyFTxXwFn8ESrdq3gPb4WANXZM55k-2FaGcYzq=
+
+-2Bp88dK9cNcS4IZDrxD4TKrjD1q6TouVY5q86-2FRd-2FSpASFku3olkAAaj3hf30baGyM-2Bv=
+
+e-2FiYGHZ69QUZr1iTT7zPgFjR9VT8aVu8ZbtqGZ86IxUJIG2Gv0NHQlNV-2B1TG5QbUusWfsyI=
+
+-2Fr7ndJDm9N6-2FuO6qCoNB-2BnevjqAbh7-2BfhGu3eZGEDKw-3D-3D and AAR http://sg=
+
+.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHk6R8tCrM-2FUICq73HMQolwU=
+
+LlNyEIfIWkweBExwEa7LuOuGf_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29k=
+
+e6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3=
+
+i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACq=
+
+ZsB3E6GhW0AQEQRV7UTkblLT5IMN4RSC5we4NTbXP0fahoBPqq-2BYEbvG8vjtL-2Fj9rF4WnN6=
+
+DcQUXd-2FABqdm1G2cp9u5QhvJ5H-2Flk1ojAtZ4kZ-2B-2B3fz3uQYlFYOc6-2Fkac-2FnyIfa=
+
+rmrwur63jzBPDQcgqOnT8VRkP7KM-2F-2Bfm5rrOXf5FZ-2BNCdvYiFSEzmyDcmfWOWzDa7dQra=
+
+lYhpymC8C6co7DkM94BEJUsny6Uw44YFdqzAgPXVtyna4HUxP-2B5iDOZGda4qjrts4CYa8KXVL=
+
+0InSg-3D-3D
+
+
+
+Disclosure: Authors of this Snacks own shares of Amazon, Apple, Beyond Meat=
+
+, and Google
+
+
+
+ID: 1041204
+
+
+
+Robinhood Snacks newsletters and podcasts reflect the opinions of only the =
+
+authors who are associated persons of Robinhood Financial LLC and do not re=
+
+flect the views of Robinhood Markets, Inc. or any of its subsidiaries or af=
+
+filiates. They are meant for informational purposes only, are not intended =
+
+to serve as a recommendation to buy or sell any security in a self-directed=
+
+ Robinhood account or any other account, and are not an offer or sale of a =
+
+security. They are also not research reports and are not intended to serve =
+
+as the basis for any investment decision. Any third-party information provi=
+
+ded therein does not reflect the views of Robinhood Markets, Inc., Robinhoo=
+
+d Financial LLC, or any of their subsidiaries or affiliates. All investment=
+
+s involve risk and the past performance of a security or financial product =
+
+does not guarantee future results or returns. Keep in mind that while diver=
+
+sification may help spread risk, it does not assure a profit or protect aga=
+
+inst loss. There is always the potential of losing money when you invest in=
+
+ securities or other financial products. Investors should consider their in=
+
+vestment objectives and risks carefully before investing. The price of a gi=
+
+ven security may increase or decrease based on market conditions and custom=
+
+ers may lose money, including their original investment. Robinhood Financia=
+
+l LLC, member FINRA/SIPC. Testimonials may not be representative of the exp=
+
+erience of other customers and are not guarantees of future performance or =
+
+success. Robinhood Financial LLC, member FINRA/SIPC.=20
+
+
+
+Robinhood Terms and Conditions http://sg.robinhood.com/ls/click?upn=3D6fntG=
+
+irSE5selsQKrSSUHhlVHSZUg2RjnmzAANAYlJXYYgyWQ1sztkfLzoo9man-2BnTE7sfoTf0nk2D=
+
+4ybnWwXf2jgt-2FACnIHHG00d-2BKtpMRhCjCHxFPaufw84R6gjVV7t4xhrCOEGJaCYm-2F0w1l=
+
+yiQ-3D-3DoBXP_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5=
+
+-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TU=
+
+A41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQ=
+
+EQRV7UTkblLTyMPCHVvkIvT0XQhMWB137M-2FnvA9XH4Xus59QMM97QBGqMHNeE34LV7szmTv3F=
+
+fj3HRAcw4GbwgjqCY4zTpJHtUB-2B8-2BB6KpV3qrfCI9Nhmdxr99M8WYfqKNkKxXlcCvvGZnKi=
+
+YnyfatdrwfsT7SFXIS4gZ0wAkFFKE6c5ts2GM6quefvIA2AEe8ABLjf3UpvZygxGdn3Z8o1Ll8B=
+
+8B-2B7ArOQTINKwHsKfF2jiJ3d3OGdmow3-2B25XFzs1UAbv-2FZZ2HQ-3D-3D=A0=C2=A0=C2=
+
+=A0Disclosure Library http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5sels=
+
+QKrSSUHvi8qmYLxQthX6AOydwFNg-2FcTUV-2B0-2BLl89jCTi7nIDHWlz9Z_jAZKG7ugqMXjzu=
+
+Qx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woe=
+
+jk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFK=
+
+OoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT5htuMMkrKXGMCWEl=
+
+sq6Tkdkd4I1xOO2edGCo-2BNop07pw5tFxRxj2Jc3aua8vlaoQykIWhyIlHGv2Sfc2E3b1b3ruR=
+
+7243fwUuR5FYQmcC95ObOOgBVlmcpJKiMuG3g6lWZzkuQ2tPJmWUSiqiIcWl-2BJFWvmO2jRAES=
+
+kWQWjQ6G9wUCWDe8SMLbz5iADa-2FlUV2B6kcwSn1uf7vE-2BEiNfIIPNEEL0oF8oULzckKwB03=
+
+ihaANlb-2F-2FMw69QC4TsWald1Q-3D-3D=A0=C2=A0=C2=A0Our Editorial Principles h=
+
+ttp://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHmuCDw8d-2BYNK8JD=
+
+6LTAMaGtsKzqtJgflZnHbTYWkJLI1y4I2ADun5qnepLfQqDwycJhn9LM2GFHd0x7iE-2BDXU2s-=
+
+3DHJdC_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj=
+
+6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt=
+
+5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UT=
+
+kblLTxOMrKHcLuX6Vwmsarl9JtiklsrIehThwfGH7CfWJ5CC-2BDQfQKfy0BIGy05Uuz-2FIn8I=
+
+cx1k5tTU31CUZiWFbCML4BXSd5fKhJJoYnIUx7e71-2BLNMDAL7hwbypuE-2BX5pyKBbZCbLLm4=
+
+CbWxCgR6vPCVWAg-2FjqoZ9G-2FCAd7lUfGhMR2uHom1i306eWr-2BkC3ypeT8WA2W6qCIQZa3b=
+
+gsYGHNiEc23nt4QowvPDmcY0VH0oVsmYgDHBqsc-2F3f6BNr-2Bn-2FgQ-3D-3D=A0=C2=A0=C2=
+
+=A0Contact Us http://sg.robinhood.com/ls/click?upn=3D6fntGirSE5selsQKrSSUHr=
+
+nnz1tojdTgZ3cGFnj-2BSsfJyGaebRQL2Sq8i2obatNcmmCq_jAZKG7ugqMXjzuQx-2BVAAWukC=
+
+b8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwC=
+
+DZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpG=
+
+p0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLTxZmspt2GBVDfKnETQBCLi0BHsfgv=
+
+19zbKWYB2w-2FjnO03RNeB5NWUlYwppUz71QAFnk2w8qrxTbEmlc5dwBoSJdW1HmSQo-2Fuw-2F=
+
+mewPypG0vyWRkZCe9nF7A7mbxIXUUy1nodYrNhrKt5rcSrsjFnSntQz5VDE7rDxnkMnDim5MhcO=
+
+xCq-2BaFuSGU3FQtpvXdMHQ8xgznIZ0-2BUD7XOKUjFfEQy-2Fptbsd39id-2F9ClzdlcdnEXiX=
+
+q4ffY4RQt0DrTqv8sw-3D-3D=A0=C2=A0=C2=A0FAQ http://sg.robinhood.com/ls/click=
+
+?upn=3D6fntGirSE5selsQKrSSUHmuCDw8d-2BYNK8JD6LTAMaGu9b4InCenMHd3ERIMnBOjFrs=
+
+mI_jAZKG7ugqMXjzuQx-2BVAAWukCb8iNB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4=
+
+pfWUIXWG66O8H5Woejk0D9IM5oEwCDZPMzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzk=
+
+jGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblL=
+
+T-2FoRftLaqVe5ztH-2BkJ1iurtTr6ck3H6TzklqahrpiSUWMlgfgCR-2Bru1JdOFnM7Kp-2BZT=
+
+2cySbkExhUjX6mdihE9SGHCqXeFbE99pCpbzJw3QBSet7hvpYg3qZUbMkuvVN6Ykb2kwVzVxXXu=
+
+Rej1Z55Hf9m0sMAaqoEdGVRS0vGBRcHlcRhb1w2NI769p2z5sngrvtkoo0FJ9insN6Uj9VEGCYA=
+
+RK5w-2FSB756h7L9fJCLoXVo0JbWK2hy999-2FF2vdCUg-3D-3D
+
+
+
+Manage Your Subscription Preferences http://sg.robinhood.com/ls/click?upn=
+
+=3D6fntGirSE5selsQKrSSUHvD1boXzg2LnBS3-2Fj-2FyVcTazmp0hh8K8R8-2FBqRF49nrqBk=
+
+O-2Fp9JP0UC5hgwxj-2BH3gV3uNY6Ib4Zpk8XAhx2Api2IjDAuvxKgF828RBxMAaEJTma8dVbeo=
+
+7II1vx8FsXLLiNc7O-2FEMJFvEWXnV9C-2BOrU-3D7AHk_jAZKG7ugqMXjzuQx-2BVAAWukCb8i=
+
+NB211R5mMDN6KiPrq29ke6fwjNz82ke5-2FzwIj6ZL4pfWUIXWG66O8H5Woejk0D9IM5oEwCDZP=
+
+MzBIhPZxK-2FxQkotZm3i20D34qKs6TUA41rIbt5jzkjGR9BG-2Fb7omCbFKOoLGDYXVjCpGp0-=
+
+2B5gQweDUAVFgToaZACqZsB3E6GhW0AQEQRV7UTkblLT89Mg8bTuTredh-2FbmZ8is0NcjpouVD=
+
+sTGFYHcQIZPE9qlzdEp817ISMLjNKf6zq0nGbA0VqrxAJ6DmHcokuwB7tsm94Fo6cFpPFCAYfmj=
+
+LHYdbUvCjdwrf2ZQGErBpDHNbhZvwrqfKYeBz68Me5X6Ws1dJBuXmWCKanIxkj9IXuJGejIfv1K=
+
+IuJPQZk8IdMFi5YX7sLpcRC0ne2Q5yYf12FMl77-2FBDb-2BduqOzeP-2BGUIhohn-2BXhJhcH5=
+
+OsQDu0qDWlw-3D-3D
+
