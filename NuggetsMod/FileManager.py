@@ -14,10 +14,8 @@ def NuggetType(nugget_type):
     if nugget == 'Email'
 """        
 
-def openNuggetFile():
-    txt = '.txt'
-    Nuggie = "MorningNugget"
-    Nugget = (Nuggie + timeNow() + txt)
+def openNuggetFile(Name = 'MorningNugget', file_type = '.txt' ):
+    Nugget = (Name + timeNow() + file_type)
     extender = ("../MorningNuggets/" + Nugget)
     
     base_path = Path(__file__).parent
@@ -29,6 +27,16 @@ def appendNuggetFile(text_data):
     f.write(text_data)
     f.write('\n')
     f.close()
+    
+def writeSoundNuggetFile(sound_data):
+    f = open(openNuggetFile(file_type = '.mp3'), 'w')
+    f.write(sound_data)
+    f.close()
+    
+    
+def readNuggetFile():
+    fr = open(openNuggetFile(), 'r')
+    return fr.read()
 
 def timeNow():
     now = date.today()

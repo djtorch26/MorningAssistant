@@ -18,8 +18,6 @@ SMTP_PORT = 993
 MAIL_USER = str(os.getenv('MAIL_USER'))
 MAIL_PASSWORD = str(os.getenv('MAIL_PASSWORD'))
 
-
-
 def readMail():
     try:
         mail = imap.IMAP4_SSL(SMTP_SERVER)
@@ -49,7 +47,7 @@ def readMail():
                     if message.is_multipart():
                         mail_content = ''
                         
-                        for part in message.get_payload():
+                        for part in message.get_payload(None,True):
                             if part.get_content_type() == 'text/plain':
                                 mail_content += part.get_payload()
                     
@@ -59,14 +57,14 @@ def readMail():
                     fmanager.appendNuggetFile(f'From: {mail_from}')
                     fmanager.appendNuggetFile(f'Subject: {mail_subject}')
                     fmanager.appendNuggetFile(f'Content: {mail_content}')
-                    
+        
         imap.close()
         imap.logout()
     except Exception as e:
         print(e)
 
         
-#readMail()
+readMail()
 
 
 """

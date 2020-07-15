@@ -1,9 +1,4 @@
-9.800000
-9254.640000
-971.5600
+
 Gluu Market Price: 9.800000
-BTC Market Price: 9255.670591
-Account Total Value: 972.4300
-Gluu Market Price: 9.800000
-BTC Market Price: 9254.648564
-Account Total Value: 972.2690
+BTC Market Price: 9243.666770
+Account Total Value: 974.3600

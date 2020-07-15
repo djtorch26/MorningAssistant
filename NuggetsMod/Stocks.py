@@ -14,21 +14,61 @@ r.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')))
 
 
 def getStockInfo():
-    accountValue = str(r.profiles.load_portfolio_profile('market_value'))
-    Gluu = str(r.stocks.get_fundamentals('GLUU', 'open'))
-    BTC = str(r.crypto.get_crypto_quote('BTC', 'mark_price'))
+    accountValue = str(r.profiles.load_portfolio_profile('extended_hours_market_value'))
     
-    subGluu = Gluu.replace('[', '')
-    sub1Gluu = subGluu.replace(']','')
-    sGluu = sub1Gluu.replace("'",'')
+    gluu = str(r.stocks.get_fundamentals('GLUU', 'open'))
+    ual = str(r.stocks.get_fundamentals('UAL', 'open'))
+    gpro = str(r.stocks.get_fundamentals('GPRO','open'))
+    acb = str(r.stocks.get_fundamentals('ACB','open'))
     
-    print(sGluu)
+    GLUU = parseOpenPrice(gluu)
+    UAL = parseOpenPrice(ual)
+    GPRO = parseOpenPrice(gpro)
+    ACB = parseOpenPrice(acb)
+    
+    
+    btc = str(r.crypto.get_crypto_quote('BTC', 'mark_price'))
+    fBTC = float(btc)
+    BTC = str(round(fBTC,2))
+    
+    doge = str(r.crypto.get_crypto_quote('DOGE', 'mark_price'))
+    fdoge = float(doge)
+    DOGE = str(round(fdoge,2))
+    
+    
+    fAccount = float(accountValue)
+    Account = str(round(fAccount,2))
+    
+    print(GLUU)
+    print(UAL)
+    print(GPRO)
+    print(ACB)
     print(BTC)
-    print(accountValue)
+    print(Account)
+    
+    #file_type = '.txt'
+    #Name = 'MorningNugget'
     
     fmanager.openNuggetFile()
-    fmanager.appendNuggetFile(f"Gluu Market Price: {sGluu}")
-    fmanager.appendNuggetFile(f"BTC Market Price: {BTC}")
-    fmanager.appendNuggetFile(f"Account Total Value: {accountValue}")
+    fmanager.appendNuggetFile("Here is your Stock Portfolio Update," +
+                             "\n" + f"Your Account's Total Value is {Account}," +
+                             "\n" + f"Glue Mobile Market Price is {GLUU}," +
+                             "\n" + f"United Airlines Market price is {UAL}," +
+                             "\n" + f"Go Pro Market Price is {GPRO}" +
+                             "\n" + f"Aurora Cannabis Market price is {ACB}" +
+                             "\n" +
+                             "\n" + "Here is your Crypto Update," +
+                             "\n" + f"Bit coin Market Price is {BTC}," +
+                             "\n" + f"Doge coin Market Price is {DOGE}" +
+                             "\n"
+                              )
+
+def parseOpenPrice(ticker):
+    sub = ticker.replace('[', '')
+    sub1 = sub.replace(']','')
+    s = sub1.replace("'",'')
+    fticker = float(s)
+    roundedticker = str(round(fticker,2))
+    return roundedticker
     
-#getStockInfo()
+getStockInfo()

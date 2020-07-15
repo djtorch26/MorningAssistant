@@ -1,0 +1,16 @@
+Here is your weather forecast for today,
+ Temperature is 66 degrees Farenheit,
+ humidity is 87 Percent,
+ weather outside can be described as broken clouds,
+
+Here is your Stock Portfolio Update,
+Your Account's Total Value is 1011.6,
+Glue Mobile Market Price is 9.8,
+United Airlines Market price is 30.7,
+Go Pro Market Price is 4.93
+Aurora Cannabis Market price is 11.98
+
+Here is your Crypto Update,
+Bit coin Market Price is 9230.34,
+Doge coin Market Price is 0.0
+
