@@ -18,9 +18,14 @@ from NuggetMod import Sound as sound
 import os
 
 def main():
-    gm.goodMorning()
-    #weather.getWeather()
-    #stocks.getStockInfo()
+    
+    wordstosay = (gm.goodMorning() + '\n' +
+                  weather.getWeather() + '\n' +
+                  stocks.getStockInfo() + '\n')
+    
+    testwordstosay = ('Kaitlyn is dumb')
+    
+    fmanager.writeNuggetFile(testwordstosay)
     
     todaysNugget = fmanager.readNuggetFile()
     sound.speak(todaysNugget)

@@ -72,9 +72,12 @@ def getWeather():
               "\n weather outside can be described as " +
                         str(weather_description)) +',' + "\n"
       
-        fmanager.openNuggetFile()
-        fmanager.appendNuggetFile(weatherData)
+        #fmanager.openNuggetFile()
+        #fmanager.appendNuggetFile(weatherData)
+        return weatherData
     else: 
+        weatherData = ('Weather Data could not be gathered')
         print(" City Not Found ") 
+        return weatherData
         
 #getWeather()

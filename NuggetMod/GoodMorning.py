@@ -82,7 +82,8 @@ def goodMorning():
     
     print(OpeningBrief)
     
-    fmanager.openNuggetFile()
-    fmanager.appendNuggetFile(OpeningBrief)
+    #fmanager.openNuggetFile()
+    #fmanager.appendNuggetFile(OpeningBrief)
+    return OpeningBrief
 
 #goodMorning()
