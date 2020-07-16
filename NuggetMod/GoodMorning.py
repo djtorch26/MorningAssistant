@@ -6,13 +6,13 @@ Created on Wed Jul 15 02:27:24 2020
 """
 
 from datetime import date
-import FileManager as fmanager
+from . import FileManager as fmanager
 
 dayNames = {
     0:'Monday',
     1:'Tuesday',
     2:'Wednesday',
-    3:'Thurday',
+    3:'Thursday',
     4:'Friday',
     5:'Saturday',
     6:'Sunday'
@@ -68,20 +68,21 @@ numberNames = {
     }
 lorde = 'trogdor' #our one and only savior from the oldentimes. haha line 69 
 
-dayName = date.today().weekday()
-now = date.today()
+def goodMorning():
+    dayName = date.today().weekday()
+    now = date.today()
+    
+    day = dayNames[dayName]
+    dayNumber = numberNames[now.day]
+    month = monthNames[now.month]
+    year = str(now.year)
+    
+    
+    OpeningBrief = f"Good Morning Dawson, Today is {day}, the {dayNumber} of {month}, in the year of our lorde {year}"
+    
+    print(OpeningBrief)
+    
+    fmanager.openNuggetFile()
+    fmanager.appendNuggetFile(OpeningBrief)
 
-day = dayNames[dayName]
-dayNumber = numberNames[now.day]
-month = monthNames[now.month]
-year = str(now.year)
-
-
-OpeningBrief = f"Good Morning Dawson, Today is {day}, the {dayNumber} of {month}, in the year of our lorde {year}"
-
-print(OpeningBrief)
-
-fmanager.openNuggetFile()
-fmanager.appendNuggetFile(OpeningBrief)
-
-
+#goodMorning()
