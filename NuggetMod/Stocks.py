@@ -12,11 +12,14 @@ import FileManager as fmanager ####ADD 'from .'
 
 r.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')))
 
+
+
+
 def getStockInfo():
-    
-    
-    
+
     accountValue = str(r.profiles.load_portfolio_profile('market_value'))
+    fAccount = float(accountValue)    
+    Account = str(round(fAccount,2))
     
     gluu = str(r.stocks.get_quotes('GLUU', 'ask_price'))
     ual = str(r.stocks.get_quotes('UAL', 'ask_price'))
@@ -30,7 +33,6 @@ def getStockInfo():
     ACB = parseOpenPrice(acb)
     JETS = parseOpenPrice(jets)
     
-    
     btc = str(r.crypto.get_crypto_quote('BTC', 'mark_price'))
     fBTC = float(btc)
     BTC = str(round(fBTC,2))
@@ -39,9 +41,6 @@ def getStockInfo():
     fdoge = float(doge)
     DOGE = str(round(fdoge,3))
     
-    
-    fAccount = float(accountValue)    
-    Account = str(round(fAccount,2))
     
     print(GLUU)
     print(UAL)
@@ -88,27 +87,17 @@ def test():
     #print(getStockInfo())
     
 
-test()
+#test()
     
 #getStockInfo()
-    
-    #file_type = '.txt'
-    #Name = 'MorningNugget'
-    
-    #fmanager.openNuggetFile()
+
 
 '''
-    fmanager.appendNuggetFile("Here is your Stock Portfolio Update," +
-                             "\n" + f"Your Account's Total Value is {Account}," +
-                             "\n" + f"Glue Mobile Market Price is {GLUU}," +
-                             "\n" + f"United Airlines Market price is {UAL}," +
-                             "\n" + f"Global JETS E T F Market price is {JETS}," +
-                             "\n" + f"Go Pro Market Price is {GPRO}" +
-                             "\n" + f"Aurora Cannabis Market price is {ACB}" +
-                             "\n" +
-                             "\n" + "Here is your Crypto Update," +
-                             "\n" + f"Bit coin Market Price is {BTC}," +
-                             "\n" + f"Doge coin Market Price is {DOGE}" +
-                             "\n"
-                              )
+Playground
 '''
+
+def setStockString(name, stockticker):
+    words = f"{name} Market Price is {GLUU},"
+    return words
+
+print(setStockString(Glu Mobile, GLUU))
