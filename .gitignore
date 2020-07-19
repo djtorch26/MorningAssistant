@@ -6,3 +6,5 @@ NuggetMod/key.py
 *.txt
 
 NuggetMod/__pycache__/key.cpython-37.pyc
+
+NuggetMod/__pycache__/
