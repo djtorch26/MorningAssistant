@@ -6,43 +6,45 @@ Created on Mon Jul 13 23:12:50 2020
 """
 
 import robin_stocks as r
+import stockHandler as sh
 import os
 
-r.authentication.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')), expiresIn = 10, by_sms = False)
+
+r.authentication.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')), expiresIn = 10, by_sms = True)
 
 #ACCOUNT VALUE
 accountValue = str(r.profiles.load_portfolio_profile('market_value'))
 fAccount = float(accountValue)    
 Account = str(round(fAccount,2))
 
-#STOCKS
-gluu = str(r.stocks.get_quotes('GLUU', 'ask_price'))
-ual = str(r.stocks.get_quotes('UAL', 'ask_price'))
-gpro = str(r.stocks.get_quotes('GPRO','ask_price'))
-acb = str(r.stocks.get_quotes('ACB','ask_price'))
-jets = str(r.stocks.get_quotes('JETS','ask_price'))
-dis = str(r.stocks.get_quotes('DIS', 'ask_price'))
+stockListPath = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\stockList.txt'
+stockfile = open(stockListPath, 'r')
+stockContent = stockfile.read()
+stockList = stockContent.split()
+#print(stockList)
+stockLister = stockContent.split(',')
 
-def setStockString(name, stockticker):
-    words = f"{name} Market Price is {stockticker},"
-    return words
+#print(str(stockList[0]))
 
-def parseOpenPrice(ticker):
-    sub = ticker.replace('[', '')
-    sub1 = sub.replace(']','')
-    s = sub1.replace("'",'')
-    fticker = float(s)
-    roundedticker = str(round(fticker,2))
-    return roundedticker
+for i in stockList:
+    stockPrice = sh.getNewStockPrice(i) 
+    sh.addPrice(stockPrice)
+    
+priceLister = []
 
-#PARSING STOCKS FOR STRING VALUES
-GLUU = parseOpenPrice(gluu)
-UAL = parseOpenPrice(ual)
-GPRO = parseOpenPrice(gpro)
-ACB = parseOpenPrice(acb)
-JETS = parseOpenPrice(jets)
-DIS = parseOpenPrice(dis)
+priceListPath = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\priceList.txt'
+pricefile = open(priceListPath, 'r')
+priceContent = pricefile.read()
+priceLister = priceContent.split()
 
+priceList = []
+
+for j in priceLister:
+    price = sh.parseOpenPrice(j)   
+    priceList.append(price)
+#print(priceList)
+
+    
 #CRYPTO CURRENCIES
 btc = str(r.crypto.get_crypto_quote('BTC', 'mark_price'))
 doge = str(r.crypto.get_crypto_quote('DOGE', 'mark_price'))
@@ -57,24 +59,20 @@ DOGE = str(round(fdoge,3))
 r.authentication.logout()
 
 def getStockInfo():
+    sh.createStockReport(stockLister, priceList)
+    
+    path = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\stockBriefing.txt'
+    report = open(path,'r')
+    text = report.read()
+    
+    print(text)
+    
     stockBriefing = ("Here is your Stock Portfolio Update," +
                      "\n" + f"Your Account's Total Value is {Account}," +
-                     "\n" + setStockString('Glu Mobile', GLUU) +
-                     "\n" + setStockString('United Airlines', UAL) +
-                     "\n" + setStockString('Global Jets E T F', JETS) +
-                     "\n" + setStockString("Disney", DIS) +
-                     "\n" + setStockString('Go Pro', GPRO) +
-                     "\n" + setStockString('Aurora Cannibis', ACB) +
-                     "\n" +
-                     "\n" + "Here is your Crypto Update," +
-                     "\n" + setStockString('Bit Coin', BTC) +
-                     "\n" + setStockString('Doge Coin', DOGE) +
-                     "\n"
-                     )
-    #r.authentication.logout()
+                     '\n' + text + '\n')
+    
     print(stockBriefing)
-    print('Stock Briefing created')
     return stockBriefing
 
-getStockInfo()   
+#getStockInfo()   
 
