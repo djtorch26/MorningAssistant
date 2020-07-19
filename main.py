@@ -15,12 +15,17 @@ from NuggetMod import Weather as weather
 from NuggetMod import FileManager as fmanager
 from NuggetMod import GoodMorning as gm
 from NuggetMod import Sound as sound
+from NuggetMod import key
 import os
 
 def main():
-    gm.goodMorning()
-    #weather.getWeather()
-    #stocks.getStockInfo()
+    
+    CompleteNugget = (gm.goodMorning() + '\n' +
+                  weather.getWeather() + '\n' +
+                  stocks.getStockInfo() + '\n')
+    testNug = ('Testing Complete')
+    
+    fmanager.writeNuggetFile(CompleteNugget)
     
     todaysNugget = fmanager.readNuggetFile()
     sound.speak(todaysNugget)

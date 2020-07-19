@@ -32,6 +32,11 @@ def appendNuggetFile(text_data):
     f.write('\n')
     f.close()
     
+def writeNuggetFile(text_data):
+    f = open(openNuggetFile(), 'w')
+    f.write(text_data)
+    f.close()
+    
 def writeSoundNuggetFile(sound_data):
     f = open(openNuggetFile(file_type = '.mp3'), 'w')
     f.write(sound_data)
