@@ -81,7 +81,7 @@ def goodMorning():
     OpeningBrief = f"Good Morning Dawson, Today is {day}, the {dayNumber} of {month}, in the year of our lorde {year}"
     
     print(OpeningBrief)
-    
+    print('opening brief complete')
     #fmanager.openNuggetFile()
     #fmanager.appendNuggetFile(OpeningBrief)
     return OpeningBrief

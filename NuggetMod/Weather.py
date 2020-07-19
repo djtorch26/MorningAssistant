@@ -6,11 +6,15 @@ Created on Mon Jul 13 23:09:07 2020
 """
 
 import requests, json 
-from . import FileManager as fmanager
+#from . import FileManager as fmanager
+import os
+import FileManager as fmanager
+import key
 
 def getWeather():  
     # Enter your API key here 
-    api_key = "d41efec9727ecfa5acc05f9609e98f52"
+    api_key = key.getKey()
+    #api_key = str(os.getenv('WEATHER_API'))
       
     # base_url variable to store url 
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -20,7 +24,7 @@ def getWeather():
       
     # complete_url variable to store 
     # complete url address 
-    complete_url = base_url + "zip=" + zipCode + "&appid=" + api_key 
+    complete_url = (base_url + "zip=" + zipCode + "&appid=" + api_key)
       
     # get method of requests module 
     # return response object 
@@ -74,10 +78,12 @@ def getWeather():
       
         #fmanager.openNuggetFile()
         #fmanager.appendNuggetFile(weatherData)
+        print(weatherData)
+        print('weather data gathered')
         return weatherData
     else: 
         weatherData = ('Weather Data could not be gathered')
         print(" City Not Found ") 
         return weatherData
         
-#getWeather()
+getWeather()

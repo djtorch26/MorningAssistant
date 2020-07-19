@@ -15,17 +15,17 @@ from NuggetMod import Weather as weather
 from NuggetMod import FileManager as fmanager
 from NuggetMod import GoodMorning as gm
 from NuggetMod import Sound as sound
+from NuggetMod import key
 import os
 
 def main():
     
-    wordstosay = (gm.goodMorning() + '\n' +
+    CompleteNugget = (gm.goodMorning() + '\n' +
                   weather.getWeather() + '\n' +
                   stocks.getStockInfo() + '\n')
+    testNug = ('Testing Complete')
     
-    testwordstosay = ('Kaitlyn is dumb')
-    
-    fmanager.writeNuggetFile(testwordstosay)
+    fmanager.writeNuggetFile(CompleteNugget)
     
     todaysNugget = fmanager.readNuggetFile()
     sound.speak(todaysNugget)

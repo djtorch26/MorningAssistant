@@ -59,6 +59,7 @@ DOGE = str(round(fdoge,3))
 
 
 def getStockInfo():
+    r.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')))
     stockBriefing = ("Here is your Stock Portfolio Update," +
                      "\n" + f"Your Account's Total Value is {Account}," +
                      "\n" + setStockString('Glu Mobile', GLUU) +
@@ -73,9 +74,10 @@ def getStockInfo():
                      "\n" + setStockString('Doge Coin', DOGE) +
                      "\n"
                      )
-    r.authentication.logout()
+    #r.authentication.logout()
     print(stockBriefing)
+    print('Stock Briefing created')
     return stockBriefing
-getStockInfo()
+
     
 
