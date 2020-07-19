@@ -5,16 +5,12 @@ Created on Mon Jul 13 23:09:07 2020
 @author: Dawson
 """
 
-import requests, json 
-#from . import FileManager as fmanager
-import os
-import FileManager as fmanager
+import requests
 import key
 
 def getWeather():  
     # Enter your API key here 
     api_key = key.getKey()
-    #api_key = str(os.getenv('WEATHER_API'))
       
     # base_url variable to store url 
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -86,4 +82,4 @@ def getWeather():
         print(" City Not Found ") 
         return weatherData
         
-getWeather()
+#getWeather()

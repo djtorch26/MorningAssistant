@@ -6,7 +6,7 @@ Created on Wed Jul 15 02:27:24 2020
 """
 
 from datetime import date
-from . import FileManager as fmanager
+import key
 
 dayNames = {
     0:'Monday',
@@ -76,9 +76,9 @@ def goodMorning():
     dayNumber = numberNames[now.day]
     month = monthNames[now.month]
     year = str(now.year)
+    YOURNAME = key.getName()
     
-    
-    OpeningBrief = f"Good Morning Dawson, Today is {day}, the {dayNumber} of {month}, in the year of our lorde {year}"
+    OpeningBrief = f"Good Morning {YOURNAME}, Today is {day}, the {dayNumber} of {month}, in the year of our lorde {year}"
     
     print(OpeningBrief)
     print('opening brief complete')
@@ -86,4 +86,4 @@ def goodMorning():
     #fmanager.appendNuggetFile(OpeningBrief)
     return OpeningBrief
 
-#goodMorning()
+goodMorning()

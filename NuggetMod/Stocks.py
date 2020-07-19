@@ -7,10 +7,8 @@ Created on Mon Jul 13 23:12:50 2020
 
 import robin_stocks as r
 import os
-from . import FileManager as fmanager ####ADD 'from .'
 
-
-r.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')))
+r.authentication.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')), expiresIn = 10, by_sms = False)
 
 #ACCOUNT VALUE
 accountValue = str(r.profiles.load_portfolio_profile('market_value'))
@@ -24,7 +22,6 @@ gpro = str(r.stocks.get_quotes('GPRO','ask_price'))
 acb = str(r.stocks.get_quotes('ACB','ask_price'))
 jets = str(r.stocks.get_quotes('JETS','ask_price'))
 dis = str(r.stocks.get_quotes('DIS', 'ask_price'))
-
 
 def setStockString(name, stockticker):
     words = f"{name} Market Price is {stockticker},"
@@ -57,9 +54,9 @@ BTC = str(round(fBTC,2))
 fdoge = float(doge)
 DOGE = str(round(fdoge,3))
 
+r.authentication.logout()
 
 def getStockInfo():
-    r.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')))
     stockBriefing = ("Here is your Stock Portfolio Update," +
                      "\n" + f"Your Account's Total Value is {Account}," +
                      "\n" + setStockString('Glu Mobile', GLUU) +
@@ -79,5 +76,5 @@ def getStockInfo():
     print('Stock Briefing created')
     return stockBriefing
 
-    
+getStockInfo()   
 
