@@ -1,0 +1,7 @@
+GLUU Market Price is 9.7,
+UAL Market Price is 32.4,
+JETS Market Price is 18.1,
+DIS Market Price is 117.95,
+GPRO Market Price is 4.96,
+ACB Market Price is 11.8,
+KO Market Price is 46.3,
