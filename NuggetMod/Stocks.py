@@ -11,7 +11,6 @@ from . import stockHandler as sh
 #import stockHandler as sh
 import os
 
-
 r.authentication.login(k.robinhoodAccount(), k.robinhoodPwrd(), expiresIn = 10, by_sms = True)
 
 #ACCOUNT VALUE
