@@ -6,7 +6,6 @@ Created on Sun Jul 19 12:59:15 2020
 """
 
 import robin_stocks as r
-import itertools
 
 def getNewStockPrice(stockName):
     newStock = str(r.stocks.get_quotes(stockName, 'ask_price'))
