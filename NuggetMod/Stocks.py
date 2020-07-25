@@ -71,7 +71,7 @@ def getStockInfo():
     
     stockBriefing = ("Here is your Stock Portfolio Update," +
                      "\n" + f"Your Account's Total Value is {Account}," +
-                     '\n' + text + '\n')
+                     "\n" + text + "\n")
     
     print(stockBriefing)
     return stockBriefing
