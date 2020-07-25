@@ -6,7 +6,8 @@ Created on Mon Jul 13 23:09:07 2020
 """
 
 import requests
-import key
+from . import key
+#import key
 
 def getWeather():  
     # Enter your API key here 

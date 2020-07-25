@@ -4,13 +4,15 @@ Created on Mon Jul 13 23:12:50 2020
 
 @author: Dawson
 """
-
+from . import key as k
+#import key as k
 import robin_stocks as r
-import stockHandler as sh
+from . import stockHandler as sh
+#import stockHandler as sh
 import os
 
 
-r.authentication.login(str(os.getenv('GMAIL_USERNAME')), str(os.getenv('ROBINHOOD_PASSWORD')), expiresIn = 10, by_sms = True)
+r.authentication.login(k.robinhoodAccount(), k.robinhoodPwrd(), expiresIn = 10, by_sms = True)
 
 #ACCOUNT VALUE
 accountValue = str(r.profiles.load_portfolio_profile('market_value'))
