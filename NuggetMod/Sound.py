@@ -23,8 +23,8 @@ def speak(text):
         #plays sound object for the daily .txt file that is generated.
         playsound.playsound(saveFile)
         
-        pathfrom = ('C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\' + saveFile)
-        pathto = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\MorningNuggets\\'
+        pathfrom = ('/home/pi/Documents/MorningAssistant/' + saveFile)
+        pathto = '/home/pi/Documents/MorningAssistant/MorningNuggets/'
         shutil.move(pathfrom, pathto)
         
     except Exception as e:

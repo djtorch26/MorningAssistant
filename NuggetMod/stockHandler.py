@@ -26,14 +26,14 @@ def parseOpenPrice(ticker):
 
 def addStock(stockTicker):
     newStock = (',' + stockTicker)
-    path = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\stockList.txt'
+    path = '/home/pi/Documents/MorningAssistant/NuggetMod/stockList.txt'
     f = open(path, 'a')
     f.write(newStock)
     f.close()
 
 def addPrice(price):
     newPrice = (price)
-    path = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\priceList.txt'
+    path = '/home/pi/Documents/MorningAssistant/NuggetMod/priceList.txt'
     f = open(path, 'w')
     f.write(newPrice)
     

@@ -19,7 +19,7 @@ accountValue = str(r.profiles.load_portfolio_profile('market_value'))
 fAccount = float(accountValue)    
 Account = str(round(fAccount,2))
 
-stockListPath = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\stockList.txt'
+stockListPath = '/home/pi/Documents/MorningAssistant/NuggetMod/stockList.txt'
 stockfile = open(stockListPath, 'r')
 stockContent = stockfile.read()
 stockList = stockContent.split()
@@ -34,7 +34,7 @@ for i in stockList:
     
 priceLister = []
 
-priceListPath = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\priceList.txt'
+priceListPath = '/home/pi/Documents/MorningAssistant/NuggetMod/priceList.txt'
 pricefile = open(priceListPath, 'r')
 priceContent = pricefile.read()
 priceLister = priceContent.split()
@@ -63,7 +63,7 @@ r.authentication.logout()
 def getStockInfo():
     sh.createStockReport(stockLister, priceList)
     
-    path = 'C:\\Users\\bamba\\Documents\\Python_Scripts\\MorningAssistant\\NuggetMod\\stockBriefing.txt'
+    path = '/home/pi/Documents/MorningAssistant/NuggetMod/stockBriefing.txt'
     report = open(path,'r')
     text = report.read()
     
