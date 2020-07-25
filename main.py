@@ -8,7 +8,7 @@ Main Program file, run this file to open the alarm clock gui and begin your dail
 """
 
 from __future__ import absolute_import
-from NuggetMod import EmailScreener as email
+#from NuggetMod import EmailScreener as email
 from NuggetMod import News as news
 from NuggetMod import Stocks as stocks
 from NuggetMod import Weather as weather
