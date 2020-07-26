@@ -7,8 +7,9 @@ Created on Tue Jul 14 02:12:33 2020
 
 from gtts import gTTS
 from . import FileManager as fmanager
-import playsound
+#import playsound
 import shutil
+import pygame
 
 
 nuggetSpeech = fmanager.readNuggetFile()
@@ -21,7 +22,12 @@ def speak(text):
         saveFile = 'MorningNuggie'+ fmanager.timeNow() + '.mp3'
         tts.save(saveFile)
         #plays sound object for the daily .txt file that is generated.
-        playsound.playsound(saveFile)
+        #playsound.playsound(saveFile)
+        pygame.mixer.init()
+        pygame.mixer.music.load("myFile.wav")
+        pygame.mixer.music.play()
+        #while pygame.mixer.music.get_busy() == True:
+            #continue
         
         pathfrom = ('/home/pi/Documents/MorningAssistant/' + saveFile)
         pathto = '/home/pi/Documents/MorningAssistant/MorningNuggets/'
