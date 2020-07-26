@@ -21,22 +21,22 @@ def speak(text):
     try:
 #creates and saves file from the daily .txt file
         saveFile = 'MorningNuggie'+ fmanager.timeNow() + '.mp3'
-        save = tts.save(saveFile)
+        tts.save(saveFile)
         #soundfile = open(save)
         #plays sound object for the daily .txt file that is generated.
         #playsound.playsound(saveFile)
-        os.system(saveFile)
+        
         # pygame.mixer.init()
         # soundtoplay = pygame.mixer.music.load(os.path.join('/home/pi/Documents/MorningAssistant/', saveFile))
         # soundtoplay.play()
         # soundfile.close()
         #while pygame.mixer.music.get_busy() == True:
             #continue
-        
         pathfrom = ('/home/pi/Documents/MorningAssistant/' + saveFile)
         pathto = '/home/pi/Documents/MorningAssistant/MorningNuggets/'
         shutil.move(pathfrom, pathto)
         
+        os.system(pathto + saveFile)
     except Exception as e:
         print(e)
         
