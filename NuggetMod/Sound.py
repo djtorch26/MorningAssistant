@@ -36,7 +36,9 @@ def speak(text):
         pathto = '/home/pi/Documents/MorningAssistant/MorningNuggets/'
         shutil.move(pathfrom, pathto)
         
-        os.system(pathto + saveFile)
+        systemInput = ('omxplayer ' + pathto + saveFile)
+        
+        os.system(systemInput)
     except Exception as e:
         print(e)
         
