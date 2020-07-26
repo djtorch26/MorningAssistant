@@ -11,7 +11,7 @@ from . import stockHandler as sh
 #import stockHandler as sh
 import os
 
-r.authentication.login(k.robinhoodAccount(), k.robinhoodPwrd(), expiresIn = 10, by_sms = True)
+r.authentication.login(k.robinhoodAccount(), k.robinhoodPwrd(), expiresIn = 360, by_sms = True)
 
 #ACCOUNT VALUE
 accountValue = str(r.profiles.load_portfolio_profile('market_value'))
