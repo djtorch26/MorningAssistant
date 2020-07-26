@@ -10,6 +10,7 @@ from . import FileManager as fmanager
 #import playsound
 import shutil
 import pygame
+import os
 
 
 nuggetSpeech = fmanager.readNuggetFile()
@@ -24,9 +25,10 @@ def speak(text):
         soundfile = open(save)
         #plays sound object for the daily .txt file that is generated.
         #playsound.playsound(saveFile)
+        
         pygame.mixer.init()
-        pygame.mixer.music.load(soundfile)
-        pygame.mixer.music.play()
+        soundtoplay = pygame.mixer.music.load(soundfile)
+        soundtoplay.play()
         soundfile.close()
         #while pygame.mixer.music.get_busy() == True:
             #continue
