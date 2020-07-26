@@ -6,7 +6,7 @@ Created on Wed Jul 15 02:27:24 2020
 """
 
 from datetime import date
-import key
+from . import key
 
 dayNames = {
     0:'Monday',
