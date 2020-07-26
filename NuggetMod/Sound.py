@@ -27,7 +27,7 @@ def speak(text):
         #playsound.playsound(saveFile)
         
         pygame.mixer.init()
-        soundtoplay = pygame.mixer.music.load(soundfile)
+        soundtoplay = pygame.mixer.music.load('/home/pi/Documents/MorningAssistant/' + saveFile)
         soundtoplay.play()
         soundfile.close()
         #while pygame.mixer.music.get_busy() == True:
