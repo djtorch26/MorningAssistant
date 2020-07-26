@@ -21,11 +21,13 @@ def speak(text):
 #creates and saves file from the daily .txt file
         saveFile = 'MorningNuggie'+ fmanager.timeNow() + '.mp3'
         save = tts.save(saveFile)
+        soundfile = open(save)
         #plays sound object for the daily .txt file that is generated.
         #playsound.playsound(saveFile)
         pygame.mixer.init()
-        pygame.mixer.music.load(save)
+        pygame.mixer.music.load(soundfile)
         pygame.mixer.music.play()
+        soundfile.close()
         #while pygame.mixer.music.get_busy() == True:
             #continue
         
